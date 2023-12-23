@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+}
+
+:root {
+    --titulo: "Playfair Display";
+    --texto: "Gabarito";
+    --primaria: #201E50;
+}
+
+h1 {
+    color: #000;
+    font-size: 58.478px;
+    font-weight: 700;
+    font-family: var(--titulo);
+}
+
+p {
+    color: #000;
+    font-family: var(--texto);
+    font-size: 35px;
+    font-weight: 400;
+}
+
+a {
+    font-family: var(--texto);
+}
+
+h3 {
+    font-family: var(--texto);
+}
+
+.menu-geral {
+    background-color: var(--primaria);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    color: #ffff;
+
+    padding: 24px;
+}
+
+.menu {
+    display: flex;
+    gap: 200px;
+}
+
+.conteudo-principal {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.imagem-botao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-main {
+    width: 465px;
+    height: 470px;
+
+    padding-bottom: 5%;
+}
+
+.botao-main {
+    width: 264px;
+    height: 69px;
+
+    border-radius: 7px;
+    background: var(--primaria);
+    color: #fff;
+    font-size: 20px;
+    font-family: var(--texto);
+}
+
+.icones {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding-top: 3%;
+}
+
+.tudao {
+    display: flex;
+    margin: 7%;
+    gap: 34px;
+}
+
+.titulo-main {
+    padding: 4%;
+}
+
+.menu-sobre {
+    color:#fff;
+}
+
+.menu-projetos {
+    color:#fff;
+}
+
+.menu-contato {
+    color:#fff;
+}
+
+.footer-home {
+    background-color: var(--primaria);
+    margin-top: 3%;
+    padding: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.linkedin-footer {
+    width: 34.41px;
+    height: 35px;
+}
+
+.instagram-footer {
+    width: 34.41px;
+    height: 35px;
+}
+
+.email-footer {
+    width: 34.41px;
+    height: 35px;
+}
+
+.titulo-footer {
+    color: #F5F5F5;
+    font-family: Gabarito;
+    font-size: 35px;
+    font-weight: 400;
+    margin-right: 2%;
+}
+
+.icons-footer {
+    display: flex;
+    gap: 50px;
+}
